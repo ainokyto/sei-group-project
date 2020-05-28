@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link, Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import MapGl, { Marker, NavigationControl, Popup } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css' //? stylesheet
 import { getAllPlants } from '../../lib/api'
 import Select from 'react-select'
 
-const token = 'pk.eyJ1IjoiYWlub2t5dG8iLCJhIjoiY2thYmdqODRmMTY0aDJ5cDRvOWk1cTd6MyJ9.QIlx0yP5sKCZRAVrfrq3OA'
+const mapboxToken = process.env.REACT_APP_MAPBOX_TOKEN
 const mapStyle = 'mapbox://styles/mapbox/light-v10'
 
 //?AK Styles for navigation controllers
@@ -129,7 +129,7 @@ class Maps extends React.Component {
             <div className="map-styles">
             <MapGl
               {...viewport}
-              mapboxApiAccessToken={token}
+              mapboxApiAccessToken={mapboxToken}
               mapStyle={mapStyle}
               onViewportChange={viewport => {
                 this.setState({ viewport })

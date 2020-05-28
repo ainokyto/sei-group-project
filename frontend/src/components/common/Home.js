@@ -40,7 +40,7 @@ showFunction = (childData) => {
             </div>
           </div>
           <div className="column">
-            <img src="https://res.cloudinary.com/jompra/image/upload/v1589738053/plntify_f9zfgd.svg" alt="Plntify Logo"></img>
+            <img src={require("../../lib/plntify_logo.svg")} alt="Plntify Logo"></img>
             {this.state.showRegister ? <Register switchForm={this.showFunction}/> : <Login switchForm={this.showFunction}/>}          
           </div>
         </div>

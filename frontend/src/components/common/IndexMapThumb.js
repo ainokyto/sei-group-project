@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { isAuthenticated } from '../../lib/auth'
 
 
-const token = 'pk.eyJ1IjoiYWlub2t5dG8iLCJhIjoiY2thYmdqODRmMTY0aDJ5cDRvOWk1cTd6MyJ9.QIlx0yP5sKCZRAVrfrq3OA'
+const mapboxToken = process.env.REACT_APP_MAPBOX_TOKEN
 const mapStyle = 'mapbox://styles/mapbox/light-v10'
 
 
@@ -23,7 +23,7 @@ const IndexMapThumb = (props) => {
         }}
         >
         <MapGl
-          mapboxApiAccessToken={token}
+          mapboxApiAccessToken={mapboxToken}
           height={'20vh'}
           width={'100%'}
           mapStyle={mapStyle}
