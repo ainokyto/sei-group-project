@@ -94,7 +94,7 @@ class ProfilePage extends React.Component {
         accepted = true
       }
       return <div className="offer-section">
-        <div className="title is-4">You have response from: <Link to={`/profile/${offer.userId}`}> {offer.userName}</Link> </div>
+        <div className="title is-4">You have a response from: <Link to={`/profile/${offer.userId}`}> {offer.userName}</Link> </div>
         <div className="offer-container">
         <div className="offer">
           On plant: <br/><Link to={`/plants/${offer.plantId}`}> {offer.plantName}<br />
@@ -122,7 +122,7 @@ class ProfilePage extends React.Component {
                     this.finishTrade(this.state.user._id, offer._id, offer.offeredPlantId, offer.plantId)
                   }}
                   >
-                    Did you finish your trade with {offer.userName}?
+                    Trade with {offer.userName} finished
                   </button>
                   }
       </div>
@@ -183,7 +183,7 @@ class ProfilePage extends React.Component {
                 <div className="field">
                   <label className="label">Message to {offer.user.name}: </label>
                   <div className="control">
-                    <textarea
+                    <textarea className="input"
                       placeholder="Message"
                       name="text"
                       onChange={this.handleChange}
