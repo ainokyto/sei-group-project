@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const dbURI = 'mongodb://localhost/plants-db3'
+const { dbURI } = require('./config/environments')
 const Plant = require('../models/plant')
 const User = require('../models/user')
 // const faker = require('faker')
