@@ -85,13 +85,13 @@ The functionality is similar to many popular social sites. Users can:
 After being given the brief, my team started out by brainstorming different ideas on what we wanted to do for our project. We soon came to realise that houseplants were a common interest, and after doing some more research, found the Trefle.io botanical API. An idea formed in our minds for a social location-based houseplant trading hub with our own RESTful API.
 We wanted to use Agile Methodology for the project, so to ensure quality communication we set up a Trello board to keep track of our progress Kanban-style, and had daily stand-up with the team where we kept each other abreast of any issues. In addition, we communicated on Slack which we found to be a very efficient way of working as we were working remotely.
 
-In order to understand how our app would work at a fundamental level we needed to sketch out models and routes:
+In order to understand how our app would work at a fundamental level we needed to sketch out models and functionality:
 
-(kuva modelseista ja routseista)
+![Plntify trade](./Readme_assets/models.png)
 
-We then proceeded to create wireframes for the front end UI to visualise the UI functionality:
+We then proceeded to create wireframes with Balsamiq for the UI:
 
-(kuva wireframesta)
+![Plntify trade](./Readme_assets/wireframe.png)
 
 By day 2 we were happy with our wireframes and began working on our backend in Node.js, creating models, controllers, and routes. I created an initial seeds file to work with before we hooked up Trefle.io.
 
