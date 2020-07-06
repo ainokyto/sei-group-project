@@ -8,11 +8,7 @@ The app has been deployed with Heroku and is available [here](https://plntify-ai
 
 Please note that user authentication is required, anyone interested in the app is welcome to use the admin credentials `aino@email` and password `pass`.
 
-## Timeframe:
-
-8 days
-
-## Brief
+## Brief & Timeframe:
 
 * Build a full-stack application by making your own backend and your own front-end
 * Use an Express API to serve your data from a Mongo database
@@ -21,6 +17,7 @@ Please note that user authentication is required, anyone interested in the app i
 * Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut
 * Have a visually impressive design
 * Be deployed online so it's publicly accessible
+* Timeframe: 8 days
 
 ## Technologies Used:
 
@@ -85,13 +82,13 @@ The functionality is similar to many popular social sites. Users can:
 After being given the brief, my team started out by brainstorming different ideas on what we wanted to do for our project. We soon came to realise that houseplants were a common interest, and after doing some more research, found the Trefle.io botanical API. An idea formed in our minds for a social location-based houseplant trading hub with our own RESTful API.
 We wanted to use Agile Methodology for the project, so to ensure quality communication we set up a Trello board to keep track of our progress Kanban-style, and had daily stand-up with the team where we kept each other abreast of any issues. In addition, we communicated on Slack which we found to be a very efficient way of working as we were working remotely.
 
-In order to understand how our app would work at a fundamental level we needed to sketch out models and functionality:
+### In order to understand how our app would work at a fundamental level we needed to sketch out models and functionality:
 
-![Plntify trade](./Readme_assets/models.png)
+![Plntify models and functionality](./Readme_assets/models.png)
 
-We then proceeded to create wireframes with Balsamiq for the UI:
+### We then proceeded to create wireframes with [Balsamiq](https://balsamiq.cloud/) for the UI:
 
-![Plntify trade](./Readme_assets/wireframe.png)
+![Plntify wireframes](./Readme_assets/wireframe.png)
 
 By day 2 we were happy with our wireframes and began working on our backend in Node.js, creating models, controllers, and routes. I created an initial seeds file to work with before we hooked up Trefle.io.
 
@@ -180,6 +177,6 @@ This was my first time working with Git as a member of a team so I had some teet
 
 ## Future Features 
 
-Being able to add extra functionality after reaching MVP so soon was an achievement, but I'm sad to say that the user flow rather suffered from this. It should be reconsidered how users can get most of the app and navigate through it in a way that feels natural and intuitive.
-The chat functionality would need some polishing, we unfortunately ran out of time while building it so it's not quite finished.
-The social aspect of the app could also be elaborated with adding friends functionality.
+Being able to add extra functionality after reaching MVP so soon was an achievement, but the user flow rather suffered from this unfortunately. It should be reconsidered how users can get most of the app and navigate through it in a way that feels natural and intuitive.
+The chat functionality would need some polishing, we unfortunately ran out of time while building it so it's not quite there yet.
+The social aspect of the app could also be elaborated with adding friends and follow functionality so that would curate user's feed content.
