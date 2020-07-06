@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jompra/sei-group-project.git"
+    "url": "git+https://github.com/ainokyto/sei-project-03.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jompra/sei-group-project/issues"
+    "url": "https://github.com/ainokyto/sei-project-03/issues"
   },
-  "homepage": "https://github.com/Jompra/sei-group-project#readme",
+  "homepage": "https://github.com/ainokyto/sei-project-03#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",

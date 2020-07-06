@@ -31,9 +31,9 @@ const plantSchema = new mongoose.Schema({
     validator: function(obj) {
       return Object.keys(obj).length > 0
     }
-  } },
+  }},
   likes: [{ userId: String, username: String }, {  required: false  }], 
-  comments: [commentSchema],
+  comments: [ commentSchema ],
   offers: [ offerSchema ],
   user: { type: mongoose.Schema.ObjectId, ref: 'User', required: true }
 }, {
