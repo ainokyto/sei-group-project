@@ -106,7 +106,7 @@ I was involved in everything, but my personal contribution to the project includ
 
 #### Featured piece of code
 
-Building user interactions and search functionality required leveraging location data. Therefore the plant model, which was by far our most complicated model, has to have location data (latitude and longitude):
+Building user interactions and search functionality required leveraging location data. Therefore the plant model, which was by far our most complicated model, has to have location data (latitude and longitude as key-value pairs):
 
 ```javascript
 const plantSchema = new mongoose.Schema({
