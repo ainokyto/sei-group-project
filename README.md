@@ -41,6 +41,13 @@ Please note that user authentication is required, anyone interested in the app i
 * [Pexels](https://www.pexels.com/api/?locale=en-US)
 * [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
 
+## Getting started
+
+1. Access the source code via the 'Clone or download' button 
+2. In CLI, run `npm` and then `npm i` on the root level to install dependencies for the backend
+3. In CLI, open a new tab, and navigate to frontend `cd frontend` and run the same commands `npm` and `npm i` to install dependencies
+4. Run command `npm start` in both tabs to run program in your local environment
+
 ## Demonstration of the App Flow
 
 #### The landing page where user is prompted to either login on register to access the site:
