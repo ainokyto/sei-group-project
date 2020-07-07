@@ -51,6 +51,18 @@ Please note that user authentication is required, anyone interested in the app i
 
 ![Plntify index](./Readme_assets/index.png)
 
+### User can add plants to their portfolio, the Wikipedia API matches the plant name to a Wikipedia article to get accurate description content
+
+![Plntify add plant](./Readme_assets/addplant.png)
+
+### We're also checking the plant name and matching it to its the scientific name with Trefle.io API 
+
+![Plntify add plant](./Readme_assets/sciname.png)
+
+### User can add a location to their plant. When user starts typing on the field, Mapbox GL API starts filtering place names to match the input
+
+![Plntify add plant](./Readme_assets/geolocation.png)
+
 ### Single plant view and making an offer
 
 ![Plntify show](./Readme_assets/profile.png)
