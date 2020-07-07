@@ -43,36 +43,36 @@ Please note that user authentication is required, anyone interested in the app i
 
 ## Demonstration of the App Flow
 
-### The landing page where user is prompted to either login on register to access the site:
+#### The landing page where user is prompted to either login on register to access the site:
 
 ![Plntify login](./Readme_assets/login.png)
 
-### Home/Index page after signing in
+#### Home/Index page after signing in
 
 ![Plntify index](./Readme_assets/index.png)
 
-### User can add plants to their portfolio, the Wikipedia API matches the plant name to a Wikipedia article to get accurate description content
+#### User can add plants to their portfolio, the Wikipedia API matches the plant name to a Wikipedia article to get accurate description content
 
 ![Plntify add plant](./Readme_assets/addplant.png)
 
-### We're also checking the plant name and matching it to its the scientific name with Trefle.io API 
+#### We're also checking the plant name and matching it to its the scientific name with Trefle.io API 
 
 ![Plntify add plant](./Readme_assets/sciname.png)
 
-### User can add a location to their plant. When user starts typing on the field, Mapbox GL API starts filtering place names to match the input
+#### User can add a location to their plant. When user starts typing on the field, Mapbox GL API starts filtering place names to match the input
 
 ![Plntify add plant](./Readme_assets/geolocation.png)
 
-### Single plant view and making an offer
+#### Single plant view and making an offer
 
 ![Plntify show](./Readme_assets/profile.png)
 ![Plntify trade](./Readme_assets/trade.png)
 
-### Received offers visible on user's own profile
+#### Received offers visible on user's own profile
 
 ![Plntify offers](./Readme_assets/offers.png)
 
-### Map view of plants available for trade with search functionality
+#### Map view of plants available for trade with search functionality
 
 ![Plntify maps](./Readme_assets/maps.png)
 
@@ -94,11 +94,11 @@ The functionality is similar to many popular social sites. Users can:
 After being given the brief, my team started out by brainstorming different ideas on what we wanted to do for our project. We soon came to realise that houseplants were a common interest, and after doing some more research, found the Trefle.io botanical API. An idea formed in our minds for a social location-based houseplant trading hub with our own RESTful API.
 We wanted to use Agile Methodology for the project, so to ensure quality communication we set up a Trello board to keep track of our progress Kanban-style, and had daily stand-up with the team where we kept each other abreast of any issues. In addition, we communicated on Slack which we found to be a very efficient way of working as we were working remotely.
 
-### In order to understand how our app would work at a fundamental level we needed to sketch out models and functionality:
+#### In order to understand how our app would work at a fundamental level we needed to sketch out models and functionality:
 
 ![Plntify models and functionality](./Readme_assets/models.png)
 
-### We then proceeded to create wireframes with [Balsamiq](https://balsamiq.cloud/) for the UI:
+#### We then proceeded to create wireframes with [Balsamiq](https://balsamiq.cloud/) for the UI:
 
 ![Plntify wireframes](./Readme_assets/wireframe.png)
 
@@ -113,7 +113,7 @@ We reached MVP at an early stage, at the end of day 4. This allowed us a generou
 For the division of work, we had every awareness that the workload would be bigger than anything that we'd build before. So we decided the best way to about it would be that all of us should be Full Stack Engineers and take full ownership of their respective area of responsibility - some of the more substantial tasks were assigned to multiple team members so we could solve big challenges quicker. Working this way we hoped to prevent any hurdles related to pipelines, to secure that our product would be ready in the timeframe given, and everyone would get the optimal learning experience from building a MERN Stack app. 
 I was involved in everything, but my personal contribution to the project included building the Map functionality and implementing interactive, searchable Maps with Mapbox's React-Map-GL package, creating the initial seeds file, and pair-coding the Chat functionality together with [Jakub](https://github.com/ykbhrn) where users are able to send direct messages to one another.
 
-#### Featured piece of code
+### Featured piece of code
 
 Building user interactions and search functionality required leveraging location data. Therefore the plant model, which was by far our most complicated model, has to have location data (latitude and longitude as key-value pairs):
 
