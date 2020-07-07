@@ -88,10 +88,9 @@ The functionality is similar to many popular social sites. Users can:
 * Message other users
 * Search and browse for plants available for trade on map
 
-
 ## Process
 
-After being given the brief, my team started out by brainstorming different ideas on what we wanted to do for our project. We soon came to realise that houseplants were a common interest, and after doing some more research, found the Trefle.io botanical API. An idea formed in our minds for a social location-based houseplant trading hub with our own RESTful API.
+After receiving the brief, my team started out by brainstorming different ideas on what we wanted to do for our project. We soon came to realise that houseplants were a common interest, and after doing some more research, found the Trefle.io botanical API. An idea formed in our minds for a social location-based houseplant trading hub with our own RESTful API.
 We wanted to use Agile Methodology for the project, so to ensure quality communication we set up a Trello board to keep track of our progress Kanban-style, and had daily stand-up with the team where we kept each other abreast of any issues. In addition, we communicated on Slack which we found to be a very efficient way of working as we were working remotely.
 
 ![Plntify trello board](./Readme_assets/trello.png)
@@ -113,7 +112,7 @@ We reached MVP at an early stage, at the end of day 4. This allowed us a generou
 ### Division of work 
 
 For the division of work, we had every awareness that the workload would be bigger than anything that we'd build before. So we decided the best way to about it would be that all of us should be Full Stack Engineers and take full ownership of their respective area of responsibility - some of the more substantial tasks were assigned to multiple team members so we could solve big challenges quicker. Working this way we hoped to prevent any hurdles related to pipelines, to secure that our product would be ready in the timeframe given, and everyone would get the optimal learning experience from building a MERN Stack app. 
-I was involved in everything, but my personal contribution to the project included building the Map functionality and implementing interactive, searchable Maps with Mapbox's React-Map-GL package, creating the initial seeds file, and pair-coding the Chat functionality together with [Jakub](https://github.com/ykbhrn) where users are able to send direct messages to one another.
+I was involved in every aspect of the project, but my personal contribution to the project included building the Map functionality and implementing interactive, searchable Maps with Mapbox's React-Map-GL package, creating the initial seeds file, and pair-coding the Chat functionality together with [Jakub](https://github.com/ykbhrn) where users are able to send direct messages to one another.
 
 ### Featured piece of code
 
@@ -183,6 +182,10 @@ setNewViewport = () => {
 We came to realise quite early on that the substantial amount of functionality will result to a large amout of components, which in turn will pose a challenge for the styling - full responsiveness had been a priority of ours from the get-go, and implementing it to all of our components was going to take time. Therefore we agreed to use Bulma CSS Framework and leverage its responsiveness tools. For the rest of the styling, we wanted to keep it quite neat and slick in order for the UI to 'feel' as clean as possible - we opted for a largely B&W monochrome scheme with a pop of our Plntify brand green.
 We had the logo and the little map marker leaves made bespoke by one team member's UX designer partner, which adds a nice touch for the branding. 
 
+### Known bugs and errors
+
+The chat functionality isn't quite there yet -  we unfortunately ran out of time building it. In its current form, the latest chat messages display on the top of the page, which is unintuitive for the user. Also the option to delete or edit sent messages is not there.
+
 ### Wins and Blockers
 
 I found working as a part of a team very beneficial, collaborative work seemed to amp up my delivery and code quality to a whole another level and the encouraging team spirit keep our collective work to a high standard.
@@ -192,5 +195,8 @@ This was my first time working with Git as a member of a team so I had some teet
 ## Future Features 
 
 Being able to add extra functionality after reaching MVP so soon was an achievement, but the user flow rather suffered from this unfortunately. It should be reconsidered how users can get most of the app and navigate through it in a way that feels natural and intuitive.
-The chat functionality would need some polishing, we unfortunately ran out of time while building it so it's not quite there yet.
 The social aspect of the app could also be elaborated with adding friends and follow functionality so that would curate user's feed content.
+
+## Key learnings
+
+This project was definitely the most challenging up to date, bringing together everything we'd learnt on the course so far. Working in a team of 4 had its challenges, and I learnt a lot about the importance of standups and regular communication. Having each team member taking ownership of their respective area of responsibility, I came to realise the importance of a managing entity in a development team, i.e. to have someone leading the process and holding all the strings. 
